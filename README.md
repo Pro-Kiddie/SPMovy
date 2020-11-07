@@ -1,6 +1,6 @@
 # SPMovy - Enterprise-Level Movie Booking System
 
-SPMovy is a full-fledged moving booking system that addresses the needs of modern cinema operators by providing features such as:
+SPMovy is a full-fledged movie booking web application that addresses the needs of modern cinema operators by providing features such as:
 
 - Public User Functionalities:
   - User movie booking system 
