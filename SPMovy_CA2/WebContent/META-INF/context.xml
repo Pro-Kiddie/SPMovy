@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+	<Resource
+		name="jdbc/assignment"
+		auth="Container"
+		type="javax.sql.DataSource"
+		maxTotal="100"
+		maxIdle="30"
+		maxWaitMillis="10000"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/assignment"
+		username="root"
+		password="qwerty@123" />	
+</Context>
+<!--
+			name: 
+			Java Naming Directory Interface (JNDI) Name
+			JNDI is a Java API for a directory service that allows Java software 
+			clients to discover and look up data and resources 
+			(in the form of Java objects) via a name.
+			
+			auth:
+			Resource is authenticated by the Container
+			
+			type:
+			The type of the resource is javax.sql.DataSource
+			Not using DriverManager here 
+			
+			maxActive:
+			Maximum number of connections in the pool 
+			-1 for no limit
+			
+			maxIdle:
+			Maximum number of connections to be retained in the pool
+			-1 for no limit
+			
+			maxWait:
+			Time in milliseconds to wait for a connection from the pool
+			Exception is thrown if time is exceedd
+			-1 for no limit
+			
+		-->

@@ -1,0 +1,26 @@
+/* Css for  PopUps_Genre  PopUps_Movie*/
+
+
+#rowFormgroup{
+  		margin-left: 1%;
+  	}
+.toDeleteMovies, .todeleteOrAddGenre{
+
+	margin-top: 1%;
+}
+
+
+
+
+/* movieDetails CSS */
+#movieDetailsContainer{
+	margin-top: 3%;
+}
+/* Admin Footer */
+.py-5{
+	margin-top: 5%;
+}
+
+
+
+	
