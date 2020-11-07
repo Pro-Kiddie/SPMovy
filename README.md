@@ -72,7 +72,7 @@ SPMovy is developed with Web Vulnerabilities in mind. It is coded with security 
 
 ### Public - Movie Details Page
 
-![](screenshots/3.move%20details.png)
+![](screenshots/3.movie_details.png)
 
 - Multi-cinemas support with a movie scheduled at different timings at different cinemas.
 - Hover over a schedule timing to display the latest available tickets (Available tickets = Total tickets set - Tickets booked - Tickets on hold).
